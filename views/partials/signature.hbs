@@ -4,7 +4,7 @@
     + Methods with no explicit return type
 --}}
 {{~#if (needsSignature this)~}}
-    <span {{~cssClass '!signature'}}><!--<span {{~cssClass '!signature-params'}}>{{formatParams params}}</span>-->
+    <span {{~cssClass '!signature'}}><span {{~cssClass '!signature-params'}}>{{formatParams params}}</span>
         {{~#isnt kind 'class'~}}
             {{~#if (returnTypes returns)~}}
                 {{~translate 'returnTypesSeparator'~}}
